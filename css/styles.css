@@ -34,7 +34,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #bd5d38;
-  --bs-secondary: #6c757d;
+  --bs-secondary: #ffffff;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -11412,8 +11412,8 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
@@ -11429,7 +11429,33 @@ section.resume-section .resume-section-content {
   section.resume-section {
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
+}
+
+footer {
+    display: flex;
+    justify-content: center; /* center the whole content horizontally */
+    align-items: center;     /* vertically align items */
+    gap: 40px;               /* spacing between the copyright and the links */
+    padding: 20px;
+    font-family: var(--bs-body-font-family);
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;               /* spacing between links */
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer p {
+    margin: 0;
 }
